@@ -1,0 +1,4 @@
+npm t
+
+git add coverage/
+git commit --no-verify --allow-empty -m "chore: generate coverage report"
