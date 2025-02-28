@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent, NxWelcomeComponent, RouterModule.forRoot([])],
+      imports: [AppComponent, NxWelcomeComponent, RouterModule.forRoot([])]
     }).compileComponents();
   });
 
@@ -22,6 +22,6 @@ describe('AppComponent', () => {
   it(`should have as title 'sample'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sample');
+    expect(app.title).toEqual('sample app');
   });
 });
