@@ -2,7 +2,9 @@
   "name": "@sample/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~19.1.0",
