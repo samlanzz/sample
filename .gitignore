@@ -27,7 +27,11 @@ node_modules
 # misc
 /.sass-cache
 /connect.lock
-/coverage
+/coverage/lcov.info
+/coverage/**/*.html
+/coverage/**/*.js
+/coverage/**/*.css
+/coverage/**/*.png
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
