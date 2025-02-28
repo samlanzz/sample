@@ -32,6 +32,9 @@ importers:
       '@angular/router':
         specifier: 19.1.0
         version: 19.1.0(@angular/common@19.1.0(@angular/core@19.1.0(rxjs@7.8.0)(zone.js@0.15.0))(rxjs@7.8.0))(@angular/core@19.1.0(rxjs@7.8.0)(zone.js@0.15.0))(@angular/platform-browser@19.1.0(@angular/animations@19.1.0(@angular/core@19.1.0(rxjs@7.8.0)(zone.js@0.15.0)))(@angular/common@19.1.0(@angular/core@19.1.0(rxjs@7.8.0)(zone.js@0.15.0))(rxjs@7.8.0))(@angular/core@19.1.0(rxjs@7.8.0)(zone.js@0.15.0)))(rxjs@7.8.0)
+      dexie:
+        specifier: 4.0.11
+        version: 4.0.11
       rxjs:
         specifier: 7.8.0
         version: 7.8.0
@@ -3847,6 +3850,9 @@ packages:
     resolution: {integrity: sha512-CmnVc+Hek2egPx1PeTFVta2W78xy2K/9Rkf6cC4T59S50tVnzKj+tnx5mmx5lwvCkujZ4uRrpRSuV+IVs3f90Q==}
     engines: {node: '>= 4.0.0'}
     hasBin: true
+
+  dexie@4.0.11:
+    resolution: {integrity: sha512-SOKO002EqlvBYYKQSew3iymBoN2EQ4BDw/3yprjh7kAfFzjBYkaMNa/pZvcA7HSWlcKSQb9XhPe3wKyQ0x4A8A==}
 
   diff-sequences@29.6.3:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
@@ -12338,6 +12344,8 @@ snapshots:
       debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
+
+  dexie@4.0.11: {}
 
   diff-sequences@29.6.3: {}
 
